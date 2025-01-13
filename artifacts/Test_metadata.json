@@ -6,13 +6,42 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_wallet",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_token",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
-				"name": "a",
+				"name": "Hi",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -20,9 +49,22 @@
 			},
 			{
 				"inputs": [],
-				"name": "set",
+				"name": "buyToken",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -54,11 +96,11 @@
 	},
 	"sources": {
 		"Test.sol": {
-			"keccak256": "0x62132b6ad316186965c09d8402845232fefc088a1890c318436c00a041b8cb16",
+			"keccak256": "0xe9c15df6fbcc999663ed8b9b875f2d3cd25a081c611f72619c6cfea1b4e2f93c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8aa0b5fdd4d76e5ee250924f584d13a2f73e7338d6a9240269501cd8d8ea1557",
-				"dweb:/ipfs/QmbVQbf9jkSMVhrQV1dsduzfNSwQkLTE4acQ7sgYDdRG8F"
+				"bzz-raw://1c0acd39d8770376e5336afb7aa099105fa14ec1fee1da538dfb73866075144b",
+				"dweb:/ipfs/QmRB5wb6f3c7eqLiVPVQKBVWB7xLEkPA7Ten7fDiJyifTJ"
 			]
 		}
 	},
