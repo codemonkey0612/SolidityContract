@@ -8,25 +8,18 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "_wallet",
-						"type": "address"
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
 					},
 					{
-						"internalType": "address",
-						"name": "_token",
-						"type": "address"
+						"internalType": "string",
+						"name": "_symbol",
+						"type": "string"
 					}
 				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "Hi",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
 			},
 			{
 				"inputs": [
@@ -49,19 +42,51 @@
 			},
 			{
 				"inputs": [],
-				"name": "buyToken",
+				"name": "mint",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "token",
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "owners",
 				"outputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "symbol",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -81,7 +106,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Test.sol": "Test"
+			"Test.sol": "MyToken"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -96,11 +121,11 @@
 	},
 	"sources": {
 		"Test.sol": {
-			"keccak256": "0xe9c15df6fbcc999663ed8b9b875f2d3cd25a081c611f72619c6cfea1b4e2f93c",
+			"keccak256": "0x83a76d3f77c3de4581102cfee8cb42d4c7d30e74b459b1d1a08ba6d38dbd4992",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1c0acd39d8770376e5336afb7aa099105fa14ec1fee1da538dfb73866075144b",
-				"dweb:/ipfs/QmRB5wb6f3c7eqLiVPVQKBVWB7xLEkPA7Ten7fDiJyifTJ"
+				"bzz-raw://562780e5a2cb444a7a241c29a6f6a86dfd01cfaf3d5cf97f7fcdd6d58bbf5b3a",
+				"dweb:/ipfs/QmTfojowZN9a58jjkgAHYxJYVsN8hvQ56YzSNovw2FMfzq"
 			]
 		}
 	},
