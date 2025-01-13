@@ -8,29 +8,6 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "_wallet",
-						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "_token",
-						"type": "address"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "Hi",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
@@ -49,19 +26,19 @@
 			},
 			{
 				"inputs": [],
-				"name": "buyToken",
+				"name": "mint",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "token",
+				"name": "name",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "string",
 						"name": "",
-						"type": "address"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -81,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Test.sol": "Test"
+			"Test.sol": "ERTC20Token"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -96,11 +73,11 @@
 	},
 	"sources": {
 		"Test.sol": {
-			"keccak256": "0xe9c15df6fbcc999663ed8b9b875f2d3cd25a081c611f72619c6cfea1b4e2f93c",
+			"keccak256": "0x7c7fd4f41e5f21899cb9bb835301079252e84ab318f7c6443c652f34af8ae578",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1c0acd39d8770376e5336afb7aa099105fa14ec1fee1da538dfb73866075144b",
-				"dweb:/ipfs/QmRB5wb6f3c7eqLiVPVQKBVWB7xLEkPA7Ten7fDiJyifTJ"
+				"bzz-raw://8278c110aea9ef5029039963174832c5a7c9d0d8b6f48facf7cd9cbb08ce6751",
+				"dweb:/ipfs/QmRTwXUMkpeo6JwAFWunNMych7Q6ZUDcczTNHj8cYiPKmL"
 			]
 		}
 	},
