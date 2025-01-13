@@ -10,22 +10,16 @@
 				"name": "a",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint8",
 						"name": "",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_a",
-						"type": "uint256"
-					}
-				],
+				"inputs": [],
 				"name": "set",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -60,11 +54,11 @@
 	},
 	"sources": {
 		"Test.sol": {
-			"keccak256": "0x5c8c9bff4da87b7f808ba7b39cd4e0e6f681ca888cc904e2b30aa58670391951",
+			"keccak256": "0x62132b6ad316186965c09d8402845232fefc088a1890c318436c00a041b8cb16",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://832e8dc47afa47ce4aa9dba79062fc9ab2369033b0f0119588153dce18904ae8",
-				"dweb:/ipfs/QmcqR2UDFjuj9PMLoLyfXqpRZUidnaAAJP4x2T9A8J2Pxq"
+				"bzz-raw://8aa0b5fdd4d76e5ee250924f584d13a2f73e7338d6a9240269501cd8d8ea1557",
+				"dweb:/ipfs/QmbVQbf9jkSMVhrQV1dsduzfNSwQkLTE4acQ7sgYDdRG8F"
 			]
 		}
 	},
